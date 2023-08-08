@@ -88,6 +88,10 @@ ul li, a{
 .line:first-child {
     padding-left: none;
 }
+.no-margin-price, .last-margin-price{
+    margin: 0 -6px !important;
+}
+
 ul li{
     line-height: 40px;
 }
@@ -159,20 +163,38 @@ h3{
 .carousel-item .landing-page-header {
     height: 400px;
 }
+.no-margin{
+    margin: 0 !important;
+}
+.no-margin-price{
+    margin: 0 -24px !important;
+}
+.last-margin-price{
+    margin: 0 -18px !important;
+}
+
+.line:last-child {
+    margin: 20px 50px;
+    width: 90%;
+    padding: 0;
+}
 
 }
 @media screen and (max-width: 784px) {
 h1{
-    font-size: 40px;
+    font-size: 32px;
 }
-h2{
-    font-size: 30px;
+.wrapper{
+    width: 85%;
+}
+h2, .amount{
+    font-size: 28px;
 }
 h3{
-    font-size: 30px;
+    font-size: 24px;
 }
 h4{
-    font-size: 26px;
+    font-size: 20px;
 }
   .carousel-item .landing-page-header {
     height: 300px;
@@ -198,5 +220,12 @@ h4{
     background: rgba(241, 221, 207, 0.6);
 
 }
+p{
+    font-size: 16;
+}
+ul li{
+    line-height: 30px;
+}
+
 
 }
