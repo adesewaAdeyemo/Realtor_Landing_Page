@@ -83,7 +83,7 @@ ul li, a{
 
 .line:last-child {
     border-right: none;
-    padding-right: 30px;
+    /* padding-right: 30px; */
 }
 .line:first-child {
     padding-left: none;
@@ -172,12 +172,15 @@ h3{
 .last-margin-price{
     margin: 0 -18px !important;
 }
+.line {
+    border-right: none;
+    padding-right: 0;
 
-.line:last-child {
+/* .line:last-child {
     margin: 20px 50px;
     width: 90%;
     padding: 0;
-}
+} */
 
 }
 @media screen and (max-width: 784px) {
@@ -188,7 +191,7 @@ h1{
     width: 85%;
 }
 h2, .amount{
-    font-size: 30px;
+    font-size: 32px;
 }
 h3{
     font-size: 28px;
