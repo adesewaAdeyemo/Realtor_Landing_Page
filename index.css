@@ -8,13 +8,13 @@ body{
     margin: 0 auto;
 }
 h1{
-    font-size: 56px;
+    font-size: 80px;
 }
 h2, .amount{
-    font-size: 40px;
+    font-size: 50px;
 }
 h3{
-    font-size: 36px;
+    font-size: 40px;
 }
 p{
     font-size: 18px;
@@ -120,7 +120,7 @@ background:#f9f9f9;
     z-index: 999;
 }
 .footer-wrapper{
-    background: #221913;
+    background: #252525;
     color: #fff;
     border-radius: 20px;
     z-index: 999;

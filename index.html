@@ -479,12 +479,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0/js/bootstrap-select.min.js"></script>
 <script>
         const faqItems = document.querySelectorAll('.faq-item');
-
     faqItems.forEach(item => {
       const question = item.querySelector('.faq-question');
       const answer = item.querySelector('.faq-answer');
-
+        const faqicon = item.querySelector(".faq-icon");
       question.addEventListener('click', () => {
+        faqicon.innerHTML = answer.style.display === 'block' ? '+' : "-";
         answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
       });
     });
