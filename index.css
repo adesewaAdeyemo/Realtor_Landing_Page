@@ -150,6 +150,11 @@ background:#f9f9f9;
 .text-header{
     padding: 30px 0 20px 0;
 }
+.price-row{
+    width: 100%;
+    padding: 0;
+}
+
 @media screen and (max-width: 1400px) {
 h1{
     font-size: 46px;
@@ -175,13 +180,12 @@ h3{
 .line {
     border-right: none;
     padding-right: 0;
-
+}
 /* .line:last-child {
     margin: 20px 50px;
     width: 90%;
     padding: 0;
 } */
-
 }
 @media screen and (max-width: 784px) {
 h1{
