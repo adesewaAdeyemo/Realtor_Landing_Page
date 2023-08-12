@@ -201,8 +201,8 @@ h3{
 }
 @media screen and (max-width: 784px) {
 h1{
-    padding-top: 40px;
-    font-size: 32px;
+    padding-top: 50px;
+    font-size: 30px;
 }
 .wrapper{
     width: 85%;
