@@ -38,6 +38,9 @@ ul li, a{
 .custom-btn-outline {
     border-color:#DC4D01;
   }
+.custom-btn-outline:hover {
+    border-color:#582a11;
+  }
 .border-radius{
     border-radius: 10px;
 }
@@ -46,6 +49,10 @@ ul li, a{
 }
 .custom-btn-bg {
     background:#DC4D01;
+    color: #fff;
+}  
+.custom-btn-bg:hover {
+    background:#582a11;
     color: #fff;
 }  
 .custom-btn-blank {
