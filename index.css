@@ -157,19 +157,6 @@ background:rgb(248, 248, 248);
     color: #fff;
     z-index: 0;
 }
-    /* .footer {
-      position: relative;
-      background-color: #f5f5f5;
-      padding: 100px 0;
-    }
-
-    .footer-wrapper {
-      position: relative;
-      z-index: 1;
-    background: #221913;
-      padding: 20px;
-      margin-top: -200px;
-    } */
 .text-header{
     padding: 30px 0 20px 0;
 }
@@ -187,7 +174,6 @@ background:rgb(248, 248, 248);
     justify-content: center;
     align-items: center;
     min-height: 90vh;
-    /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Inter', sans-serif;
 }
 .border-bottom{
@@ -349,6 +335,9 @@ form{
 }
 .auth-body{
     min-width: none;
+}
+.center-body{
+        min-height: 70vh;
 }
 
 }
