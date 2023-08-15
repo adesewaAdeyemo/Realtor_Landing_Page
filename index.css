@@ -347,6 +347,8 @@ ul li{
 form{
     padding: 0 !important;
 }
-
+.auth-body{
+    min-height: 80vh;
+}
 
 }
