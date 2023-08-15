@@ -343,12 +343,12 @@ ul li{
 .center-body p{
     font-weight: 250;
     font-size: 15px;
+    min-height: 70vh;
 }
 form{
     padding: 0 !important;
 }
 .auth-body{
-    min-height: 70vh;
 }
 
 }
