@@ -197,18 +197,20 @@ background:rgb(248, 248, 248);
     text-align: right;
 }
 .card{
-/* padding: 80px; */
 color :#383636ef;
 margin: auto;
 border: transparent;
 border-radius: 20px;
 background-color: rgb(248, 248, 248);
-/* box-shadow: 0 2px 20px rgba(0, 0, 0, 0.26); */
 }
 .center-body h2{
     font-weight: 600;
     font-size: 36px;
 }
+.center-body h4{
+    font-weight: 400;
+}
+
 .center-body .a{
     color: #DC4D01;
 }
@@ -325,6 +327,20 @@ ul li{
 .mobile-full-width{
     width: 100%;
     margin: 10px 0;
+    padding: 0 !important;
+}
+.card{
+    padding: 30px 10px !important;
+}
+.center-body h2{
+    font-weight: 500;
+    font-size: 24px;
+}
+.center-body h4{
+    font-weight: 300;
+    font-size: 16px;
+}
+form{
     padding: 0 !important;
 }
 
