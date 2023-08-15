@@ -300,7 +300,7 @@ h4{
 }
 .dropdown-item:hover{
     background: rgb(240, 240, 240, 0.6);
-
+    color: #4e2b17;
 }
 p{
     font-size: 16px;
