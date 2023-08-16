@@ -98,10 +98,35 @@
             <div class="border-bottom mt-3"></div>
         </div>
         <div class="wrapper">
-            <section class="row mt-4">
+            <section class="row mt-4 d-none" id="signinform">
+                <div class="">
+                    <h5>2. Login to your account</h5>
+                    <p>Don't have an account? <span class="a" onchange="showauth('signupform')"> Sign Up</span></p>
+                </div>
+                <div class="row sub-form">
+                    <div class="col-md-6 col-sm-12 no-sm-padding">
+                        <div class="input-field my-3">
+                            <label for="gender">Enter Email Address</label>
+                            <input id='name' class="form-control form-control-md" type="text" placeholder="Enter Email Address" aria-label="Name" name="name" onmouseout="validate(event, 'name')">
+                            <span role="alert" id="nameError" class='error' aria-hidden="true">
+                                Name cannot be empty
+                            </span>
+                        </div>
+
+                        <div class="input-field my-3">
+                            <label for="gender">Enter Password</label>
+                            <input id='name' class="form-control form-control-md" type="text" placeholder="Enter Password" aria-label="Name" name="name" onmouseout="validate(event, 'name')">
+                            <span role="alert" id="nameError" class='error' aria-hidden="true">
+                                Name cannot be empty
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="row mt-4 d-none" id="signupform">
                 <div class="">
                     <h5>2. Create an account</h5>
-                    <p>Already have an account? <a href="/signin.html" class="a"> Login</a></p>
+                    <p>Already have an account? <span class="a" onchange="showauth('signinform')"> Sign In</span></p>
                 </div>
                 <div class="row sub-form">
                     <div class="col-md-6 col-sm-12 no-sm-padding">
@@ -153,7 +178,7 @@
         <div class="wrapper">
             <section class="row mt-4 pb-5 ">
                 <div class="">
-                    <h5>2. Payment Information</h5>
+                    <h5>3. Payment Information</h5>
                     <p>How would you like to Pay?</p>
                 </div>
                 <div class="d-flex change-flex justify-content-between">
