@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     max-width: 100%;
-    color: #3f3e3d;
+color :#252525;
 }
 .wrapper{
     width: 83%;
@@ -50,9 +50,19 @@ a:hover, .item:hover{
 .colored-text, .icon{
     color: #DC4D01;
 }
-.custom-btn-bg {
+.iconi{
+    color: #252525;
+}
+.iconi:active{
+    color: #DC4D01;
+}
+.custom-btn-bg{
     background:#DC4D01;
     color: #fff;
+}  
+.activeBtn {
+    background:#DC4D01 !important;
+    color: #fff !important;
 }  
 .custom-btn-bg:hover {
     background:#582a11;
@@ -63,7 +73,7 @@ a:hover, .item:hover{
     color: #fff;
 }
 .custom-footer-btn-blank{
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(240, 238, 238, 0.5);
     color: #dc4d01;
 }
 .custom-section-bg {
@@ -103,7 +113,21 @@ a:hover, .item:hover{
     /* margin-left: 30px;
     margin-right: 30px; */
 }
-
+.sub-line {
+    padding-left: 60px;
+    padding-right: 60px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+}
+.price-row{
+    color: #524d47;
+}
+.price-row p{
+    font-weight: 200;
+}
+.price-row h5{
+    font-weight: 400;
+}
 .line:last-child {
     border-right: none;
     /* padding-right: 30px; */
@@ -197,8 +221,11 @@ background-color: rgb(248, 248, 248);
     font-weight: 400;
 }
 
-.center-body .a{
+.center-body .a, .a{
     color: #DC4D01;
+}
+.a:hover{
+    color: #383636ef;
 }
 .center-body label{
     font-size: 15px;
@@ -215,11 +242,32 @@ input{
 label{
     padding-bottom: 5px;
 }
-
 .error{
     display: none;
 }
+.custom-footer-btn-blank:hover{
+    background: #dc4d01;
+    color: rgba(235, 235, 235);
+}
+.sub-form input{
+    background:rgb(248, 248, 248);
+    padding: 10px 20px;
+}
+ .center-container {
+      display: flex;
+      align-items: center;
+    }
+.payment-header{
+    font-size: 20px;
+}
+.change-form{
+    display: none;
+}
 
+.change-form input{
+    background:rgb(248, 248, 248);
+    padding: 20px;
+}
 @media screen and (max-width: 1400px) {
 h1{
     font-size: 46px;
@@ -337,7 +385,15 @@ form{
     min-width: none;
 }
 .center-body{
-        min-height: 80vh;
+    min-height: 80vh;
 }
-
+.sub-line {
+    padding-left: 50px;
+    padding-right: 0px;
+}
+.sub-body .change-flex{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
 }
