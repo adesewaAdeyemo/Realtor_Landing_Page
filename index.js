@@ -74,7 +74,6 @@ function showForm(formId) {
 
 
 
-
 function copyToClipboard(elementId) {
     const element = document.getElementById(elementId);
     if (element) {
